@@ -1,0 +1,75 @@
+<html>
+
+<script src="info.js"></script> 
+
+<center>
+<body bgcolor="#666666">
+<h1><font style="verdana" color="red"> SIGN UP!!!</font></h1>
+<form action="register.php" id="register" method="post" name='registration' onSubmit="return formValidation();" >
+<table border="0">
+<tbody>
+
+<br><br>
+<tr>
+
+<td><label for="name"><font style="Tahoma" color="white" size="4">Your Name*:</font> </label> </td>
+<td><input id="name" maxlength="45" name="name" type="text" /> </td>
+</tr>
+
+<tr>
+<td><label for="email"><font style="Tahoma" color="white" size="4">Email Address*:</font></label> </td>
+<td><input id="email" maxlength="45" name="email" type="text" /></td>
+</tr>
+
+<tr>
+<td><label for="username"><font style="Tahoma" color="white" size="4">User Name*:</font></label> </td>
+<td><input id="username" maxlength="45" name="username" type="text" /> </td>
+</tr>
+
+<tr>
+<td><label for="password"><font style="Tahoma" color="white" size="4">Password*:</font></label></td>
+<td><input id="password" maxlength="45" name="password" type="password" /></td>
+</tr>
+
+<tr>
+<td><label for="rpass"><font style="Tahoma" color="white" size="4">ReType Password*:</font></label> </td>
+<td><input id="rpass" maxlength="45" name="rpass" type="password" /> </td>
+</tr>
+
+<tr>
+<td><font style="Tahoma" color="white" size="4">Gender :</font>
+<form action="">
+<td>
+<input type="radio" name="msex" value="male"><font style="Tahoma" color="white" size="4">Male</font><br>
+<td>
+<input type="radio" name="fsex" value="female"><font style="Tahoma" color="white" size="4">Female</font>
+</form>
+</tr>
+
+<tr>
+<td><font style="Tahoma" color="white" size="4">Country :</font>
+<td><select name="country">
+<option selected="" value="Default">(Please select a country)</option>
+  <option value="ind">India</option>
+  <option value="amer">America</option>
+  <option value="aus">Australia</option>
+  <option value="eng">England</option>
+</select>
+</tr>
+
+
+<tr>
+<td><form>
+<input type="checkbox" name="agreed" value="aa"><font style="Tahoma" color="white" size="4">I have read the <a href="terms.html"> terms & condions</font></a><br>
+</form> 
+</tr>
+<tr>
+<td align="right"><input name="Submit" type="submit" value="Submit" /></td>
+</tr>
+
+
+</tbody></table>
+</center>
+
+</body></form>
+</html>

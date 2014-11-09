@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  
+  <script type="text/javascript" src="js/infydummy.js"></script>
+  
+</head>
+
+<body bgcolor="grey">
+<center><h1>SIGN UP....!!</H1>
+
+
+	  
+	  <form action="new" id="reg" name='registration' onSubmit="return formValidation();" method="GET">
+	  <table border="0">
+<tbody>
+
+
+<tr>
+
+<td><label for="name"><font style="Tahoma" color="white" size="4">Your Name*:</font> </label> </td>
+<td><input id="name" maxlength="45" name="name" type="text" /> 
+<span id="name1"
+   style="color:red; font-weight: bold;"></span>
+   
+   <br>
+ <tr>
+<td><label for="email"><font style="Tahoma" color="white" size="4">Email Address*:</font></label> </td>
+<td><input id="email" maxlength="45" name="email" type="text" />
+<span id="email1" style="color:red; font-weight: bold;"></span>
+</td>
+</tr>
+
+<tr>
+<td><label for="username"><font style="Tahoma" color="white" size="4">User Name*:</font></label> </td>
+<td><input id="username" maxlength="45" name="username" type="text" />
+<span id="username1"
+   style="color:red; font-weight: bold;"></span>
+ </td>
+</tr>
+<br>
+<tr>
+<td><label for="password"><font style="Tahoma" color="white" size="4">Password*:</font></label></td>
+<td><input id="password" maxlength="45" name="password" type="password"   onkeyup="pwdStrength(this.value)"        />
+<span id="password1"
+   style="color:red; font-weight: bold;"></span>
+
+</td>
+</tr>
+<br>
+<td><div id="pwdDescription" style="color: red"><b></b></div></td> 
+
+<tr>
+<td><label for="rpass"><font style="Tahoma" color="white" size="4">ReType Password*:</font></label> </td>
+<td><input id="rpass" maxlength="45" name="rpass" type="password" /> 
+<span id="rpass1"
+   style="color:red; font-weight: bold;"></span>
+   </td>
+
+</tr>
+<br>
+
+<tr>
+    <td>
+        <input type="text" id="txtCaptcha" value="1 2 3 4 5 6 7"
+            style="background-image:url(1.jpg); text-align:center; border:none;
+            font-weight:bold; font-family:Modern" />
+        <input type="button" id="btnrefresh" value="Refresh" onclick="DrawCaptcha();" />
+    </td>
+</tr>
+<tr>
+    <td>
+        <input type="text" id="txtInput"/>    
+		<span id="txtInput1"
+   style="color:red; font-weight: bold;"></span>
+		
+    </td>
+</tr>
+<tr>
+    <td>
+        <input id="Button1" type="button" value="Check" onclick="alert(ValidCaptcha());"/>
+    </td>
+</tr>
+
+<tr>
+<td><font style="Tahoma" color="white" size="4">Gender :</font>
+<form action="">
+<td>
+<input type="radio" name="msex" value="male"><font style="Tahoma" color="white" size="4">Male</font><br>
+<td>
+<input type="radio" name="fsex" value="female"><font style="Tahoma" color="white" size="4">Female</font>
+</form>
+</tr>
+
+<tr>
+<td><font style="Tahoma" color="white" size="4">Country :</font>
+<td><select name="country">
+<option selected="" value="Default">(Please select a country)</option>
+  <option value="ind">India</option>
+  <option value="amer">America</option>
+  <option value="aus">Australia</option>
+  <option value="eng">England</option>
+</select>
+</tr>
+
+
+<tr>
+<td><form>
+<input type="checkbox" id = "agreed" name="agreed" value="aa"><font style="Tahoma" color="white" size="4">I have read the <a href="terms.html"> terms & condions</font></a><br>
+</form> 
+</tr>
+<tr>
+<td align="right"><input name="Submit" type="submit" value="Submit" /></td>
+
+
+
+</tr>  
+
+</td>
+</tr>
+</tbody>
+</table>
+</form>
+</center>
+</body>
+</html>
+
+

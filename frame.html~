@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div id="heading">
+      <img src="juno-1.png" id="title" />
+    </div>
+    <div id="commercial">
+      <img src="anigif.gif"  height="350" width="370" alt="advt" id="advt"/>
+    </div>
+    <div id="login">
+      <form id="loginForm" action="test.php" method="post">
+	Username:<input type="text" id="user" name="user" /><br />
+	Password:<input type="password" id="pass"  name="pass" /><br />
+	<input type="checkbox" id="remember" name="remember" />Remember Me<br />
+	<input type="submit" value="Login!" id="submitButton"/>
+	<br />
+	new user ? Sign up! ITS FREE!
+      </form>
+  </div> 
+  </body>
+<!--<frameset rows="19%,50%"  border="2">
+<frameset cols="50%">
+<frame src="f1.html">
+</frameset>
+<frameset cols="40%,*,60%" border="0">
+<frame src="f2.html">
+<frame src="f3.html">
+<frame src="f4.html">
+</frameset>
+!-->
+</html>

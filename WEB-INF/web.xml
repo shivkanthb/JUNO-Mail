@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <display-name>HelloWorld Application</display-name>
+    <description>
+        This is a simple web application with a source code organization
+        based on the recommendations of the Application Developer's Guide.
+    </description>
+
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>login</servlet-class>
+    </servlet>
+	
+	<servlet>
+   <servlet-name>register</servlet-name>
+   <servlet-class>register</servlet-class>
+ </servlet>
+	
+	<servlet>
+  <servlet-name>compose</servlet-name>
+   <servlet-class>compose</servlet-class>
+ </servlet>
+	
+	
+	<servlet>
+  <servlet-name>sent</servlet-name>
+   <servlet-class>sent</servlet-class>
+ </servlet>
+	
+	
+	<servlet>
+  <servlet-name>inbox</servlet-name>
+   <servlet-class>inbox</servlet-class>
+ </servlet>
+	
+	
+	
+	
+	<servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/servlet</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+	<servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/new</url-pattern>
+    </servlet-mapping>
+	
+	<servlet-mapping>
+        <servlet-name>compose</servlet-name>
+        <url-pattern>/comp</url-pattern>
+    </servlet-mapping>
+	
+     <servlet-mapping>
+        <servlet-name>sent</servlet-name>
+        <url-pattern>/sent</url-pattern>
+    </servlet-mapping>
+	
+   
+	
+	 <servlet-mapping>
+        <servlet-name>inbox</servlet-name>
+        <url-pattern>/in</url-pattern>
+    </servlet-mapping>
+	
+	
+</web-app>     

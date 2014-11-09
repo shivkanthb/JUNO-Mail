@@ -1,0 +1,80 @@
+function showComposeBox()
+{
+    var appendComposeContent="<br /><br /><div id=\"newMail\">To&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type=\"text\" id=\"newReceiver\" />";
+    appendComposeContent+="<br /><br />Subject&nbsp&nbsp&nbsp<input type=\"text\" id=\"newSubject\" />";
+    appendComposeContent+="<hr /><br />Message&nbsp&nbsp&nbsp<br /><textarea id=\"newMessage\" rows=\"20\" cols=\"100\"></textarea></div>";
+    document.getElementById("mainDiv").innerHTML=appendComposeContent;
+}
+function showInbox()
+{
+    var appendInboxContent="<br /><br /><ul id=\"messages\">";
+    appendInboxContent+="<li id=\"message1\" class=\"message\">";
+    appendInboxContent+="<span id=\"sender1\" class=\"sender\">Hari</span>";
+    appendInboxContent+="<span id=\"subject1\" class=\"subject\">Hackathon</span>";
+    appendInboxContent+="<span id=\"date1\" class=\"date\">Jan 12</span>";
+    appendInboxContent+="</li>";
+    appendInboxContent+="<li id=\"message2\" class=\"message\">";
+    appendInboxContent+="<span id=\"sender2\" class=\"sender\">Niveditha</span>";
+    appendInboxContent+="<span id=\"subject2\" class=\"subject\">Hari</span>";
+    appendInboxContent+="<span id=\"date2\" class=\"date\">Jan 12</span>";
+    appendInboxContent+="</li>";
+    appendInboxContent+="<li id=\"message3\" class=\"message\">";
+    appendInboxContent+="<span id=\"sender3\" class=\"sender\">K S Balaji</span>";
+    appendInboxContent+="<span id=\"subject3\" class=\"subject\">Physics Class</span>";
+    appendInboxContent+="<span id=\"date3\" class=\"date\">Jan 12</span>";
+    appendInboxContent+="</li>";
+    appendInboxContent+="<li id=\"message4\" class=\"message\">";
+    appendInboxContent+="<span id=\"sender4\" class=\"sender\">Siddharth</span>";
+    appendInboxContent+="<span id=\"subject4\" class=\"subject\">ACM ICPC</span>";
+    appendInboxContent+="<span id=\"date4\" class=\"date\">Jan 11</span>";
+    appendInboxContent+="</li>";
+    appendInboxContent+="<li id=\"message5\" class=\"message\">";
+    appendInboxContent+="<span id=\"sender5\" class=\"sender\">Steve</span>";
+    appendInboxContent+="<span id=\"subject5\" class=\"subject\">Pragyan cms</span>";
+    appendInboxContent+="<span id=\"date5\" class=\"date\">Jan 11</span>";
+    appendInboxContent+="</li>";
+    appendInboxContent+="<li id=\"message6\" class=\"message\">";
+    appendInboxContent+="<span id=\"sender6\" class=\"sender\">pragyan.org</span>";
+    appendInboxContent+="<span id=\"subject6\" class=\"subject\">Pragyan'13 Invite</span>";
+    appendInboxContent+="<span id=\"date6\" class=\"date\">Jan 10</span>";
+    appendInboxContent+="</li>"
+    appendInboxContent+="</ul>";
+    document.getElementById("mainDiv").innerHTML=appendInboxContent;
+}
+function showDrafts()
+{
+    /*var appendDraftsContent="<br /><br /><ul id=\"messages\">";
+    appendDraftsContent+="<li id=\"message1\" class=\"message\">";
+    appendDraftsContent+="<span id=\"sender1\" class=\"sender\">Hari</span>";
+    appendDraftsContent+="<span id=\"subject1\" class=\"subject\">Hackathon</span>";
+    appendDraftsContent+="<span id=\"date1\" class=\"date\">Jan 12</span>";
+    appendDraftsContent+="</li>";
+    appendDraftsContent+="<li id=\"message2\" class=\"message\">";
+    appendDraftsContent+="<span id=\"sender2\" class=\"sender\">Niveditha</span>";
+    appendDraftsContent+="<span id=\"subject2\" class=\"subject\">Hari</span>";
+    appendDraftsContent+="<span id=\"date2\" class=\"date\">Jan 12</span>";
+    appendDraftsContent+="</li>";
+    appendDraftsContent+="<li id=\"message3\" class=\"message\">";
+    appendDraftsContent+="<span id=\"sender3\" class=\"sender\">K S Balaji</span>";
+    appendDraftsContent+="<span id=\"subject3\" class=\"subject\">Physics Class</span>";
+    appendDraftsContent+="<span id=\"date3\" class=\"date\">Jan 12</span>";
+    appendDraftsContent+="</li>";
+    appendDraftsContent+="<li id=\"message4\" class=\"message\">";
+    appendDraftsContent+="<span id=\"sender4\" class=\"sender\">Siddharth</span>";
+    appendDraftsContent+="<span id=\"subject4\" class=\"subject\">ACM ICPC</span>";
+    appendDraftsContent+="<span id=\"date4\" class=\"date\">Jan 11</span>";
+    appendDraftsContent+="</li>";
+    appendDraftsContent+="<li id=\"message5\" class=\"message\">";
+    appendDraftsContent+="<span id=\"sender5\" class=\"sender\">Steve</span>";
+    appendDraftsContent+="<span id=\"subject5\" class=\"subject\">Pragyan cms</span>";
+    appendDraftsContent+="<span id=\"date5\" class=\"date\">Jan 11</span>";
+    appendDraftsContent+="</li>";
+    appendDraftsContent+="</ul>";
+    document.getElementById("mainDiv").innerHTML=appendDraftsContent;*/
+    alert("hello");
+
+}
+function showSent()
+{
+
+}

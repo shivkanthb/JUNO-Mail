@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  
+  
+  <!--script>
+/*function validate_email()
+{
+ var ema=document.getElementById("user");
+ var pas=document.getElementById("pass");
+ var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  //alert('Invalid Email Address');
+var aemail = ["sri@gmail.com","shiv@gmail.com","suresh@gmail.com"];
+var passwd =  ["sri","shiv","suresh"]; 
+    /*    if (reg.test(ema.value) == false || pas.value == null || pas.value =="") 
+        {
+            alert('Invalid Email Address or password');
+            return false;
+        }
+		else
+		{
+        return true;
+		}*/
+		
+		for(var i=0; i < aemail.length;i++)
+		{
+			if(ema.value == aemail[i] && pass.value == passwd[i])
+			{
+		     return true;
+			 }
+			 else
+			 {
+			  alert("Invalid email or password");
+			  return false;
+			  }
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</script-->
+  
+  <body>
+    <div id="heading">
+      <img src="juno-1.png" id="title" />
+    </div>
+    <div id="commercial">
+      <img src="anigif.gif"  height="350" width="370" alt="advt" id="advt"/>
+    </div>
+    <div id="login">
+      <form id="loginForm" action="servlet" method="GET">
+	Username:<input type="text" id="user" name="user" /><br />
+	Password:<input type="password" id="pass"  name="pass" /><br />
+	<input type="checkbox" id="remember" name="remember" />Remember Me<br />
+	<input type="submit" value="Login!" id="submitButton"      />
+	<br /><br /> 
+	new user ? Sign up! ITS FREE!
+
+	<a href="newtemp.html">Sign up</a>
+	<!--input type="submit" value="signup!" id="signup"  onsubmit="call()"  />
+	
+
+	
+      </form>
+  </div> 
+  </body>
+<!--<frameset rows="19%,50%"  border="2">
+<frameset cols="50%">
+<frame src="f1.html">
+</frameset>
+<frameset cols="40%,*,60%" border="0">
+<frame src="f2.html">
+<frame src="f3.html">
+<frame src="f4.html">
+</frameset>
+!-->
+</html>
